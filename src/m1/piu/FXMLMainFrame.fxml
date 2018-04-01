@@ -19,37 +19,37 @@
         <menus>
           <Menu mnemonicParsing="false" text="File">
             <items>
-              <MenuItem mnemonicParsing="false" text="New" />
-                  <MenuItem mnemonicParsing="false" text="Open..." />
-                  <MenuItem mnemonicParsing="false" text="Save" />
-                  <MenuItem mnemonicParsing="false" text="Save as..." />
-                  <MenuItem mnemonicParsing="false" text="Exit" />
+              <MenuItem fx:id="newBtn" mnemonicParsing="false" text="New" />
+                  <MenuItem fx:id="openBtn" mnemonicParsing="false" text="Open..." />
+                  <MenuItem fx:id="saveBtn" mnemonicParsing="false" text="Save" />
+                  <MenuItem fx:id="saveAsBtn" mnemonicParsing="false" text="Save as..." />
+                  <MenuItem fx:id="exitBtn" mnemonicParsing="false" text="Exit" />
             </items>
           </Menu>
           <Menu mnemonicParsing="false" text="Help">
             <items>
-              <MenuItem mnemonicParsing="false" text="About" />
-                  <MenuItem mnemonicParsing="false" text="Online Help" />
+              <MenuItem fx:id="aboutBtn" mnemonicParsing="false" text="About" />
+                  <MenuItem fx:id="onlineHelpBtn" mnemonicParsing="false" text="Online Help" />
             </items>
           </Menu>
         </menus>
       </MenuBar>
       <ToolBar layoutY="25.0" prefHeight="40.0" prefWidth="300.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
         <items>
-          <Button mnemonicParsing="false" text="New Contact" />
-            <Button layoutX="10.0" layoutY="13.0" mnemonicParsing="false" text="Edit Contact" />
-            <Button layoutX="66.0" layoutY="13.0" mnemonicParsing="false" text="Remove Contact" />
+          <Button fx:id="newContactBtn" mnemonicParsing="false" text="New Contact" />
+            <Button fx:id="editContactBtn" layoutX="10.0" layoutY="13.0" mnemonicParsing="false" text="Edit Contact" />
+            <Button fx:id="removeContactBtn" layoutX="66.0" layoutY="13.0" mnemonicParsing="false" text="Remove Contact" />
             <Group>
                <children>
-                  <TextField layoutX="1.0" />
-                  <Button layoutX="151.0" mnemonicParsing="false" text="?" />
+                  <TextField fx:id="searchText" layoutX="1.0" />
+                  <Button fx:id="searchBtn" layoutX="151.0" mnemonicParsing="false" text="?" />
                </children>
             </Group>
         </items>
       </ToolBar>
       <VBox layoutY="396.0" prefHeight="26.0" prefWidth="725.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
          <children>
-            <Label text="Selected contact : Toto Titi" VBox.vgrow="ALWAYS">
+            <Label fx:id="statusBar" text="Selected contact : Toto Titi" VBox.vgrow="ALWAYS">
                <font>
                   <Font size="14.0" />
                </font>
