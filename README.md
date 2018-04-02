@@ -8,7 +8,7 @@
 ## Functionalities
 - [x] Top bar (Prototype only)
 - [x] Manage Contact (Prototype only)
-- [] Contact details (Prototype only)
+- [ ] Contact details (Prototype only)
 
 ## Technologies
 - NetBeans
