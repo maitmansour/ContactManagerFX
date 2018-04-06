@@ -22,7 +22,7 @@
                   <MenuItem fx:id="openBtn" mnemonicParsing="false" text="Open..." />
                   <MenuItem fx:id="saveBtn" mnemonicParsing="false" text="Save" />
                   <MenuItem fx:id="saveAsBtn" mnemonicParsing="false" text="Save as..." />
-                  <MenuItem fx:id="exitBtn" mnemonicParsing="false" text="Exit" />
+                  <MenuItem fx:id="exitBtn" mnemonicParsing="false" onAction="#closeButtonAction" text="Exit" />
             </items>
           </Menu>
             <Menu mnemonicParsing="false" text="Contact">

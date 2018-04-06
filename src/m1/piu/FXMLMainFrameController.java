@@ -44,6 +44,7 @@ public class FXMLMainFrameController implements Initializable {
     
     @FXML
     private Label label;   
+
    
     @FXML
    private void newContact(ActionEvent event) throws IOException{
@@ -64,7 +65,10 @@ public class FXMLMainFrameController implements Initializable {
        
    }
    
-   
+@FXML
+private void closeButtonAction(){
+    System.exit(0);
+}   
      @FXML
     private void addPhoneNumber(ActionEvent event) throws  IOException{
        
