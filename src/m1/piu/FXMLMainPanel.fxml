@@ -3,11 +3,11 @@
 <?import javafx.scene.control.SplitPane?>
 <?import javafx.scene.layout.AnchorPane?>
 
-<SplitPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="495.0" minWidth="791.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1">
+<SplitPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="460.0" minWidth="791.0" prefHeight="606.0" prefWidth="791.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1">
     <items>
-        <SplitPane dividerPositions="0.22742474916387959" prefHeight="160.0" prefWidth="200.0">
+        <SplitPane dividerPositions="0.22742474916387959" prefHeight="712.0" prefWidth="789.0">
             <items>
-                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="531.0" prefWidth="176.0">
                 <children>
                 <fx:include source="FXMLAddressBooks.fxml" />
                 </children>  
@@ -21,13 +21,13 @@
                                     <items>
                                          
                                                 
-                                        <AnchorPane fx:id="test2" minHeight="211.0" minWidth="502.0">
+                                        <AnchorPane fx:id="test2" minHeight="211.0" minWidth="502.0" prefWidth="605.0">
                                         <children>
                                                 <fx:include source="FXMLContactInfos.fxml" />
                                         </children>  
                                         </AnchorPane>
                         
-                                        <AnchorPane fx:id="TEST" minHeight="298.0" minWidth="457.0">
+                                        <AnchorPane fx:id="TEST" prefHeight="318.0" prefWidth="605.0" SplitPane.resizableWithParent="false">
                                             <children>
                                                 <fx:include source="FXMLContactDetails.fxml" />
                                             </children>
