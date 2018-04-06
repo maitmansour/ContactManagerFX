@@ -6,7 +6,9 @@
 - AIT MANSOUR Mohamed <contact@numidea.com>.
 
 ## Functionalities
-- [x] To do...
+- [x] Top bar (Prototype only)
+- [x] Manage Contact (Prototype only)
+- [ ] Contact details (Prototype only)
 
 ## Technologies
 - NetBeans
