@@ -1,11 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import java.lang.*?>
-<?import java.util.*?>
-<?import javafx.scene.*?>
-<?import javafx.scene.control.*?>
-<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.layout.AnchorPane?>
 
-<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1">
-    
-</AnchorPane>
+<SplitPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="495.0" minWidth="791.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1">
+    <items>
+        <SplitPane dividerPositions="0.22742474916387959" prefHeight="160.0" prefWidth="200.0">
+            <items>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
+                <children>
+                <fx:include source="FXMLAddressBooks.fxml" />
+                </children>  
+                </AnchorPane>
+                
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
+                    <children>
+                        <AnchorPane layoutX="30.0" layoutY="82.0" prefHeight="200.0" prefWidth="200.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                            <children>
+                                <SplitPane dividerPositions="0.3838383838383838" layoutX="14.0" layoutY="93.0" orientation="VERTICAL" prefHeight="200.0" prefWidth="160.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                    <items>
+                                         
+                                                
+                                        <AnchorPane fx:id="test2" minHeight="211.0" minWidth="502.0">
+                                        <children>
+                                                <fx:include source="FXMLContactInfos.fxml" />
+                                        </children>  
+                                        </AnchorPane>
+                        
+                                        <AnchorPane fx:id="TEST" minHeight="298.0" minWidth="457.0">
+                                            <children>
+                                                <fx:include source="FXMLContactDetails.fxml" />
+                                            </children>
+                                        </AnchorPane>
+                            
+                                    </items>
+                                </SplitPane>
+                            </children>
+                        </AnchorPane>
+                    </children>
+                </AnchorPane>
+            </items>
+        </SplitPane>
+    </items>
+</SplitPane>
