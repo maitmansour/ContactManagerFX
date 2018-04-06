@@ -42,7 +42,7 @@
       </MenuBar>
       <ToolBar layoutY="25.0" prefHeight="46.0" prefWidth="773.0" style="-fx-alignment: CENTER;" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="25.0">
          <items>
-            <Button fx:id="addContactBtn" mnemonicParsing="false" prefHeight="35.0" prefWidth="150.0" style="-fx-background-color: #54A81B;" text="New Contact" textFill="WHITE">
+            <Button fx:id="addContactBtn" mnemonicParsing="false" onAction="#newContact" prefHeight="35.0" prefWidth="150.0" style="-fx-background-color: #54A81B;" text="New Contact" textFill="WHITE">
                <font>
                   <Font size="14.0" />
                </font>
